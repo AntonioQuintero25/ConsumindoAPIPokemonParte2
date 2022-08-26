@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-image: url('/img/anniversaryposter2019.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+}
+
+#sombra{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+#pokemon{
+    background-color: white;
+    width: 90%;
+    max-height: auto;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pesquisa-pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+form{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomePokemon{
+    padding: 25px;
+    width:100%;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+
+.enviarPokemon{
+    padding: 25px;
+    width:50%;
+    background-color: red;
+    border: 0px;
+    color: white;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+
+#dados-pokemon{
+    background-color: white;
+    margin: 15px 0px;
+    border: 5px solid yellow;
+    border-radius: 25px;
+    padding: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagemDoPokemon{
+    align-self: center;
+}
+
+#status{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.hp{
+    background-color: lime;
+    padding: 15px;
+    color: white;
+    border-radius: 25px;
+}
+
+.attack
+{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border-radius: 25px; 
+}
+
+.defense{
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    border-radius: 25px; 
+}
+
+.special-attack{
+    background-color: darkred;
+    padding: 15px;
+    color: white;
+    border-radius: 25px;
+}
+
+.special-defense{
+    background-color: darkblue;
+    padding: 15px;
+    color: white;
+    border-radius: 25px;
+}
+
+.speed{
+    background-color: darkturquoise;
+    padding: 15px;
+    color: white;
+    border-radius: 25px;
+}
+
+#frenteEVerso
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.frente-image{
+    width: 200px;
+    height: 200px;
+}
